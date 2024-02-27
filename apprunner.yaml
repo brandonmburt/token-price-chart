@@ -1,0 +1,9 @@
+version: 1.1
+runtime: nodejs14
+build:
+  commands:
+    build:
+      - npm install
+      - npm run build
+run:
+  command: npx serve -s build
