@@ -12,26 +12,24 @@ code {
     monospace;
 }
 
-.content {
+.app {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100%;
+    min-height: 100vh;
     flex-direction: column;
+    justify-content: flex-start;
+    margin: 30px 20px;
 }
 
 #pair-info {
     width: 600px;
     align-items: left;
     margin-bottom: 30px;
-    margin-left: 100px;
+    margin-left: 80px;
 }
 
 #chart-container {
     width: 600px;
     height: 400px;
-    padding-bottom: 30px;
 }
 
 .custom-tooltip {

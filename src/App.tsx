@@ -29,7 +29,7 @@ export default function App() {
     }, []);
 
     return (
-        <div className='content'>
+        <div>
             {data && !error ? (
                     <>
                         <TokenPairInfo {...generatePairInfo(data)} />
